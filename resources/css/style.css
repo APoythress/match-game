@@ -1,0 +1,62 @@
+/* Generic Styling */
+
+html {
+	font-family: "Work Sans", sans-serif;
+	font-size: 14px;
+	margin-top: 5.25rem;
+}
+
+body {
+	background-color: rgb(255, 242, 242) !important;
+	margin: 0	auto;
+}
+
+/* Instructions Section */
+.instruct {
+	color: rgb(32, 64, 86) !important;
+}
+
+.instruct h4 {
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.instruct p {
+
+}
+
+
+/* Game Section */
+
+/* Cards */
+.card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 12.5rem !important;
+	background-color: rgb(32, 64, 86);
+	border: 4px solid #ffffff;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+/* Interactive Properties */
+
+.right {
+	color: rgb(204, 204, 204);
+}
+
+.wrong {
+	background-color: orange;
+}
+
+/* Numbers */
+
+.number {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	color: rgb(255, 255, 255);
+	font-weight: 900;
+	font-size: 7rem;
+}

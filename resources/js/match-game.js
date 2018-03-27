@@ -21,7 +21,7 @@ MatchGame.generateCardValues = function () {
 
   var randomCardValues = unplacedCardValues.slice();
 
-  while (randomCardValues < unplacedCardValues.length()) {
+  while (randomCardValues < unplacedCardValues.length) {
     Math.floor(Math.randon() * 8);
     document.getElementById()
   }
